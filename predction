@@ -1,0 +1,24 @@
+from ultralytics import YOLO
+import numpy as np
+
+# Load a custom model
+model = YOLO('C:\\Users\\DELL\\runs\\classify\\train\\weights\\best.pt')
+
+# Predict on an image
+results = model('C:\\Users\\DELL\\Downloads\\img.jpeg') 
+
+# Get the class names
+names_dict = results[0].names
+
+# Get the predicted probabilities
+probs = results[0].probs.data.tolist()
+
+# Print class names and their probabilities
+print(names_dict)
+print(probs)
+
+# Get the class name with the highest probability
+predicted_class = names_dict[np.argmax(probs)]
+
+# Print the predicted class name
+print(predicted_class)
