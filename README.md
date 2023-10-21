@@ -11,3 +11,8 @@ The project focuses on refining the categorization of cars using the YOLOv8 algo
 
 ![Training image](train_batch1.jpg)           ![Training image](train_batch1250.jpg)
 ![validation](val_batch0_labels.jpg)          
+
+<br>
+** Plot Results**
+![res](results.png) ![res](Figure_2_res.png)
+![res](Figure_1_res.png)
