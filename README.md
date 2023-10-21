@@ -13,7 +13,6 @@ The project focuses on refining the categorization of cars using the YOLOv8 algo
 ![validation](val_batch0_labels.jpg)          
 
 <br>
-
-** Plot Results**  <br>
+**Plot Results**  <br>
 ![res](results.png) &nbsp;&nbsp; ![res](Figure_2_res.png)  &nbsp;&nbsp;
 ![res](Figure_1_res.png)
