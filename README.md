@@ -9,4 +9,6 @@ The project focuses on refining the categorization of cars using the YOLOv8 algo
 -> Overfitting Mitigation: Implemented effective techniques to ensure model generalization. <br>
 -> Diverse Dataset: Curated a comprehensive dataset encompassing various angles, lighting conditions, and perspectives.<br>
 
-!(train_batch1.jpg)
+![Training image](train_batch1.jpg)
+
+![Training image](train_batch1250.jpg)
